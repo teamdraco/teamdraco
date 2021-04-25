@@ -30,7 +30,6 @@ body {
   {% if site.page-img %}
   background-image: url({{ site.page-img | relative_url }});
   background-repeat: repeat-x;
-  background-color: #536ed4;
   {% endif %}
 }
 p {
@@ -811,7 +810,7 @@ nav.top-nav-short-permanent ~ header > .intro-header.big-img {
   font-weight: 800;
   letter-spacing: 1px;
   padding: 0.625rem 0.3125rem;
-  background-color: #FFF;
+  background-color: black;
   border-radius: 0;
   color: {{ site.text-col | default: "#404040" }};
 }

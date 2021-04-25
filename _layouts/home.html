@@ -5,7 +5,7 @@ layout: page
 <div class="no-highlight">
   <center>{{ content }}</center>
 
-  <hr style="color: rgba(255, 255, 255, 0.445);">
+  <hr>
 
   {% assign posts = paginator.posts | default: site.posts %}
 
@@ -89,4 +89,6 @@ layout: page
     {% endif %}
   </ul>
   {% endif %}
+
+  <br>
 </div>
